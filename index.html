@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Deck</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header id="heading-container">
+        <nav id="heading-title">
+            <div id="title-of-page">Movie Deck</div>
+        </nav>
+    </header>
+    
+    <main>
+        <div id="movie-filter-area">
+            <div>
+                <input id="movie-search-box" type="text" placeholder="Search by name...">
+                <button id="movie-search-btn">Search</button>
+            </div>
+            <div>
+                <button class="movie-filter-btn">Sort by date (oldest to latest) </button>
+                <button class="movie-filter-btn">Sort by rating (latest to most) </button>
+            </div>
+        </div>
+        <div id="movies-choice">
+            <button class="movie-filter-btn">All </button>
+            <button class="movie-filter-btn">Favorites </button>
+        </div>
+        <div class="movie-card-container">
+            
+            
+
+        </div>
+        <div class="pages-control">
+            <button class="page-change" id="prev">Previous</button>
+            <button class="page-change" id="current">Current Page : 1</button>
+            <button class="page-change" id="next">Next Page</button>
+        </div>
+
+    </main>
+    
+    <footer>
+        <div id="copyright">
+            @2023 Movies Copyright
+        </div>
+    </footer>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

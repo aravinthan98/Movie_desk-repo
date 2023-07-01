@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #1c1c1c;
+    color: white;
+    
+
+}
+#heading-container {
+    background-color: cadetblue;
+    
+    margin-top: 30px;
+}
+#heading-title {
+    color: white;
+    padding: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#title-of-page {
+    font-size: 28px;
+    font-weight: 700;
+}
+#movie-search-box {
+    border-radius: 5px;
+    padding: 5px;
+    width: 200px;
+}
+#movie-search-btn {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 20px;
+    margin: 10px;
+    background-color: forestgreen;
+}
+.movie-filter-btn {
+    border-radius: 5px;
+    border: none;
+    padding: 7px;
+    padding: 8px 20px;
+    margin: 5px;
+    background-color: crimson;
+    color: aliceblue;
+}
+#movie-filter-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#movies-choice {
+    padding-left: 10px;
+}
+.movie-card-container {
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+.movie-cards {
+    width: 300px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgb(248, 246, 246);
+    border-radius: 5px;
+
+}
+.poster-size {
+    width: 200px;
+    border-radius: 10px;
+}
+.movie-title {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 25px;
+}
+.poster {
+    text-align: center;
+    position: relative;
+}
+.heart-icon {
+    position: absolute;
+    right: 0;
+    top: 370px;
+    font-size: 40px;
+    color: black;
+}
+.movie-vote {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.name-vote-sorting {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.pages-control {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.page-change {
+    border: none;
+    padding: 7px 15px;
+    border-radius: 5px;
+    background-color: chocolate;
+}
+#copyright {
+    background-color: black;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
